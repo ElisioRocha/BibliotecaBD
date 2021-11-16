@@ -1,12 +1,14 @@
 package pt.rochalivrosbd.pessoas;
 
 import java.util.Date;
+import pt.rochalivrosbd.Nacionalidade;
 
 public class Autor {
     
-    String nomePróprio;
-    String apelido;
-    Date dataDeNascimento;
-    String nacionalidade; //p.ex. português, belga, etc.
+    public String nomePróprio;
+    public String apelido;
+    public String nomeArtístico;
+    public Date dataDeNascimento;
+    Nacionalidade nacionalidade; //p.ex. português, belga, etc.
     
 }
