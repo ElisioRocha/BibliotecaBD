@@ -1,4 +1,4 @@
-package pt.rochalivrosbd.dadosteste;
+package pt.rochalivrosbd.carregardados;
 
 import java.util.Date;
 import pt.rochalivrosbd.pessoas.Autor;
