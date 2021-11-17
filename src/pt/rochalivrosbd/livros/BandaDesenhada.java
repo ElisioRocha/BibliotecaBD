@@ -14,5 +14,16 @@ public class BandaDesenhada {
         public String título; //campo do tipo referencia
         public String personagem;
         /**/    
+
+    public BandaDesenhada(Autor autor, boolean cores, int anoPublicação, String título, String personagem) {
+        this.autor = autor;
+        //this.númeroDePáginas = númeroDePáginas;
+        //this.peso = peso;
+        this.cores = cores;
+        //this.tamanho = tamanho;
+        this.anoPublicação = anoPublicação;
+        this.título = título;
+        this.personagem = personagem;
+    }
     
 }
