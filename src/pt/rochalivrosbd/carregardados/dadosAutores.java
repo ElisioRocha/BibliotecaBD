@@ -5,6 +5,7 @@ import pt.rochalivrosbd.pessoas.Autor;
 
 public class dadosAutores {
     
+    //Autor [] coleçãoAutores = new Autor[3]
     Autor hergé;
     Autor morris;
     Autor uderzo;

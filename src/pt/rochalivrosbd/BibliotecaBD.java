@@ -8,7 +8,8 @@ public class BibliotecaBD {
 
         System.out.println("Bem-vinda|o à biblioteca de livros de banda desenhada.");
         dadosVolumesBD bandasDesenhadas = new dadosVolumesBD();
-        bandasDesenhadas.carregarVolumesBD();
+        bandasDesenhadas.carregarVolumesBD();        
+        bandasDesenhadas.obterBandaDesenhadaTimtim();
 
     }
 
