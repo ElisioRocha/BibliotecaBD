@@ -1,5 +1,6 @@
 package pt.rochalivrosbd;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 import pt.rochalivrosbd.gerirdados.BaseDadosBD;
 import pt.rochalivrosbd.livros.BandaDesenhada;
@@ -15,7 +16,7 @@ public class BibliotecaBD {
         System.out.println("Que personagem de Banda Desenhada pretende pesquisar? ");
         String personagemPedida = entradaPedido.nextLine();
         
-        BandaDesenhada[] pedidoBandaDesenhada = new BandaDesenhada[10];
+        ArrayList pedidoBandaDesenhada = new ArrayList();
         pedidoBandaDesenhada = BaseDadosBD.devolveBandasDesenhadas(personagemPedida);
         
         System.out.println("Agradecemos o seu pedido de banda desenhada.");        

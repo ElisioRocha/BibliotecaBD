@@ -1,6 +1,6 @@
 package pt.rochalivrosbd.pessoas;
 
-import java.util.Date;
+import java.time.LocalDate;
 import pt.rochalivrosbd.Nacionalidade;
 
 public class Autor {
@@ -8,10 +8,10 @@ public class Autor {
     public String nomePróprio;
     public String apelido;
     public String nomeArtístico;
-    public Date dataDeNascimento;
+    public LocalDate dataDeNascimento;
     Nacionalidade nacionalidade; //p.ex. português, belga, etc.
 
-    public Autor(String nomePróprio, String apelido, String nomeArtístico, Date dataNascimento) {
+    public Autor(String nomePróprio, String apelido, String nomeArtístico, LocalDate dataNascimento) {
         this.nomePróprio = nomePróprio;
         this.apelido = apelido;
         this.nomeArtístico = nomeArtístico;
