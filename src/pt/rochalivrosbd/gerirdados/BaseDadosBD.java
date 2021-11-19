@@ -23,14 +23,11 @@ public class BaseDadosBD {
         coleçãoBD.add(new BandaDesenhada(coleçãoAutores.get(0), true, 1985, "O unicorno","Tintim"));
         coleçãoBD.add(new BandaDesenhada(coleçãoAutores.get(0), true, 1991, "Missão à Lua","Tintim"));
         coleçãoBD.add(new BandaDesenhada(coleçãoAutores.get(2), true, 1978, "Asterix e Obelix contra César","Asterix"));
-
+        
     }
     
     public static ArrayList getBaseDadosBD() {
-        if(coleçãoBD.size()>0)
-            return coleçãoBD;
-        
-        return null;        
+        return coleçãoBD;                
     }    
     
 }
