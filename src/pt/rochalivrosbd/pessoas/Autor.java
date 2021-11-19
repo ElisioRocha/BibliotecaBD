@@ -5,11 +5,11 @@ import pt.rochalivrosbd.Nacionalidade;
 
 public class Autor {
     
-    public String nomePróprio;
-    public String apelido;
-    public String nomeArtístico;
-    public LocalDate dataDeNascimento;
-    Nacionalidade nacionalidade; //p.ex. português, belga, etc.
+    private String nomePróprio;
+    private String apelido;
+    private String nomeArtístico;
+    private LocalDate dataDeNascimento;
+    private Nacionalidade nacionalidade; //p.ex. português, belga, etc.
 
     public Autor(String nomePróprio, String apelido, String nomeArtístico, LocalDate dataNascimento) {
         this.nomePróprio = nomePróprio;
